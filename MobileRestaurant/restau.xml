@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+-
+- phpMyAdmin XML Dump
+- version 2.11.4
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Aug 26, 2012 at 06:51 PM
+- Server version: 5.1.57
+- PHP Version: 5.2.17
+-->
+
+<!--
+- Database: 'a4596834_restau'
+-->
+<a4596834_restau>
+  <!-- Table admin -->
+    <admin>
+        <id>1</id>
+        <login>admin</login>
+        <password>7c4a8d09ca3762af61e59520943dc26494f8941b</password>
+    </admin>
+    <admin>
+        <id>2</id>
+        <login>james</login>
+        <password>93a642e1be713b93503b67c48656a59fa1af1fde</password>
+    </admin>
+  <!-- Table cuisine -->
+    <cuisine>
+        <id_c>1</id_c>
+        <c_plat>1</c_plat>
+        <c_restau>7</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>2</id_c>
+        <c_plat>1</c_plat>
+        <c_restau>4</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>3</id_c>
+        <c_plat>1</c_plat>
+        <c_restau>17</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>4</id_c>
+        <c_plat>1</c_plat>
+        <c_restau>20</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>5</id_c>
+        <c_plat>2</c_plat>
+        <c_restau>31</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>6</id_c>
+        <c_plat>2</c_plat>
+        <c_restau>32</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>7</id_c>
+        <c_plat>2</c_plat>
+        <c_restau>33</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>8</id_c>
+        <c_plat>2</c_plat>
+        <c_restau>34</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>9</id_c>
+        <c_plat>2</c_plat>
+        <c_restau>35</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>10</id_c>
+        <c_plat>2</c_plat>
+        <c_restau>36</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>11</id_c>
+        <c_plat>5</c_plat>
+        <c_restau>31</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>12</id_c>
+        <c_plat>5</c_plat>
+        <c_restau>32</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>13</id_c>
+        <c_plat>5</c_plat>
+        <c_restau>33</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>14</id_c>
+        <c_plat>5</c_plat>
+        <c_restau>34</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>15</id_c>
+        <c_plat>5</c_plat>
+        <c_restau>35</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>16</id_c>
+        <c_plat>5</c_plat>
+        <c_restau>36</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>17</id_c>
+        <c_plat>3</c_plat>
+        <c_restau>4</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>18</id_c>
+        <c_plat>3</c_plat>
+        <c_restau>7</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>19</id_c>
+        <c_plat>3</c_plat>
+        <c_restau>20</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>20</id_c>
+        <c_plat>3</c_plat>
+        <c_restau>29</c_restau>
+    </cuisine>
+    <cuisine>
+        <id_c>21</id_c>
+        <c_plat>3</c_plat>
+        <c_restau>30</c_restau>
+    </cuisine>
+  <!-- Table plats -->
+    <plats>
+        <id_p>1</id_p>
+        <nom_p>burger</nom_p>
+        <image_p>burger.jpg</image_p>
+    </plats>
+    <plats>
+        <id_p>2</id_p>
+        <nom_p>sushis</nom_p>
+        <image_p>sushis.jpg</image_p>
+    </plats>
+    <plats>
+        <id_p>3</id_p>
+        <nom_p>pizza</nom_p>
+        <image_p>pizza.jpg</image_p>
+    </plats>
+    <plats>
+        <id_p>4</id_p>
+        <nom_p>kebap</nom_p>
+        <image_p>kebap.jpg</image_p>
+    </plats>
+    <plats>
+        <id_p>5</id_p>
+        <nom_p>nems</nom_p>
+        <image_p>nems.jpg</image_p>
+    </plats>
+    <plats>
+        <id_p>8</id_p>
+        <nom_p>tarte aux fraises</nom_p>
+        <image_p>tarte aux fraises.jpg</image_p>
+    </plats>
+    <plats>
+        <id_p>7</id_p>
+        <nom_p>couscous</nom_p>
+        <image_p>couscous.jpg</image_p>
+    </plats>
+  <!-- Table restaurants -->
+    <restaurants>
+        <id_r>1</id_r>
+        <nom_r>Les 3 Fermiers </nom_r>
+        <type_r>Spécialités fermières, campagnardes et marines.</type_r>
+        <tel_r>0590221917</tel_r>
+        <adresse_r>Chemin rural de Longuerue Saint-Jacques, 400m avant l'hippodrome régional</adresse_r>
+        <ville_r>Anse-Bertrand</ville_r>
+        <cp_r>97121</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>trois</note>
+    </restaurants>
+    <restaurants>
+        <id_r>2</id_r>
+        <nom_r>Au Jardin de l'Eden</nom_r>
+        <type_r>Cuisine Traditionnelle Antillaise</type_r>
+        <tel_r>0590221666</tel_r>
+        <adresse_r>Rue Toussain Louverture Guery</adresse_r>
+        <ville_r>Anse-Bertrand</ville_r>
+        <cp_r>97121</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>deux</note>
+    </restaurants>
+    <restaurants>
+        <id_r>3</id_r>
+        <nom_r>Délices du Nord</nom_r>
+        <type_r>Fruits de Mer</type_r>
+        <tel_r>0590225545</tel_r>
+        <adresse_r></adresse_r>
+        <ville_r>Anse-Bertrand</ville_r>
+        <cp_r>97121</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>4</id_r>
+        <nom_r>Abenzoar jacques </nom_r>
+        <type_r> Restauration rapide</type_r>
+        <tel_r>0590812524</tel_r>
+        <adresse_r>Route de cadet</adresse_r>
+        <ville_r>Baillif</ville_r>
+        <cp_r>97123</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>5</id_r>
+        <nom_r>La casa </nom_r>
+        <tel_r>0590819879</tel_r>
+        <adresse_r>Rue du pere labas</adresse_r>
+        <ville_r>Baillif</ville_r>
+        <cp_r>97123</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>6</id_r>
+        <nom_r>Le drouant </nom_r>
+        <type_r>Hôtel restaurant</type_r>
+        <tel_r>05 90 81 28 90</tel_r>
+        <adresse_r>26 rue du docteur cabre</adresse_r>
+        <ville_r>Basse-Terre</ville_r>
+        <cp_r>97100</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>7</id_r>
+        <nom_r>Poivre et Menthe </nom_r>
+        <type_r>World food et grillades</type_r>
+        <tel_r>05 90 81 73 69</tel_r>
+        <adresse_r>Avenue du Gouverneur Lion</adresse_r>
+        <ville_r>Basse-Terre</ville_r>
+        <cp_r>97100</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>8</id_r>
+        <nom_r>Le Baobab Tropical </nom_r>
+        <type_r>Cuisine Gastronomique</type_r>
+        <tel_r>05 90 60 13 07</tel_r>
+        <adresse_r>29 rue du docteur cabre</adresse_r>
+        <ville_r>Basse-Terre</ville_r>
+        <cp_r>97100</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>9</id_r>
+        <nom_r>Le trianon </nom_r>
+        <tel_r>05 90 81 46 08</tel_r>
+        <adresse_r>Zone artisanale</adresse_r>
+        <ville_r>Baillif</ville_r>
+        <cp_r>97123</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>10</id_r>
+        <nom_r>Le Bordeaux </nom_r>
+        <type_r>Cuisine traditionnelle</type_r>
+        <tel_r>05 90 81 77 68</tel_r>
+        <adresse_r>Impasse Les Palétuviers, ZI de Jarry - Voie Verte</adresse_r>
+        <ville_r>Baie-Mahault</ville_r>
+        <cp_r>97122</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>11</id_r>
+        <nom_r>Bima's Café </nom_r>
+        <type_r>Cuisine Créole et Haitienne</type_r>
+        <tel_r>05 90 86 10 77</tel_r>
+        <adresse_r>75 rue de la république</adresse_r>
+        <ville_r>Baie-Mahault</ville_r>
+        <cp_r>97122</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>12</id_r>
+        <nom_r>L'Abrivado </nom_r>
+        <type_r>Salades variées, Grillades , Pâtes, Gratin du jour</type_r>
+        <tel_r>05 90 81 60 04</tel_r>
+        <adresse_r>5/6 rue Ferdinand Forest, Imm Ary Encelade Côté Houelbourg ZI Jarry</adresse_r>
+        <ville_r>Baie-Mahault</ville_r>
+        <cp_r>97122</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>13</id_r>
+        <nom_r>Au Paradis Gourmand </nom_r>
+        <type_r>Cuisine Provençale</type_r>
+        <tel_r>05 90 38 79 39</tel_r>
+        <adresse_r>54 Lot Agat, Houelbourg sur Mer</adresse_r>
+        <ville_r>Baie-Mahault</ville_r>
+        <cp_r>97122</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>14</id_r>
+        <nom_r>Les Tortues </nom_r>
+        <tel_r>05 90 98 82 83</tel_r>
+        <adresse_r>Lieu dit bas duchet</adresse_r>
+        <ville_r>Bouillante</ville_r>
+        <cp_r>97125</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>15</id_r>
+        <nom_r>Chez Loulouze</nom_r>
+        <type_r>Spécialités Créoles et poissons</type_r>
+        <tel_r>05 90 98 70 34</tel_r>
+        <adresse_r>Plage de Malendure</adresse_r>
+        <ville_r>Bouillante</ville_r>
+        <cp_r>97125</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>16</id_r>
+        <nom_r>Le Ranch</nom_r>
+        <type_r>Cuisine Créole et Fruits de Mer</type_r>
+        <tel_r>05 90 98 95 58</tel_r>
+        <adresse_r>La Lise - Pigeon</adresse_r>
+        <ville_r>Bouillante</ville_r>
+        <cp_r>97125</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>17</id_r>
+        <nom_r>Chez Gizou </nom_r>
+        <type_r>Restauration rapide</type_r>
+        <tel_r>05 90 98 81 01</tel_r>
+        <adresse_r>Le bourg</adresse_r>
+        <ville_r>Bouillante</ville_r>
+        <cp_r>97125</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>18</id_r>
+        <nom_r>La Dame Jeanne</nom_r>
+        <type_r>Cusine Créole et Française</type_r>
+        <tel_r>05 90 86 01 27</tel_r>
+        <adresse_r>Rue Alfred Balon, Doyon</adresse_r>
+        <ville_r>Capesterre-Belle-Eau</ville_r>
+        <cp_r>97130</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>trois</note>
+    </restaurants>
+    <restaurants>
+        <id_r>19</id_r>
+        <nom_r>Kalinago Carbet</nom_r>
+        <type_r>Cuisine Amérindienne</type_r>
+        <tel_r>05 90 81 84 46</tel_r>
+        <adresse_r>Residence Bell'o Plage - Bananier</adresse_r>
+        <ville_r>Capesterre-Belle-Eau</ville_r>
+        <cp_r>97130</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>quatre</note>
+    </restaurants>
+    <restaurants>
+        <id_r>20</id_r>
+        <nom_r>Snack Bar Restaurant</nom_r>
+        <type_r>Restauration rapide</type_r>
+        <tel_r>05 90 86 32 87</tel_r>
+        <adresse_r>15 rue paul lacave</adresse_r>
+        <ville_r>Capesterre-Belle-Eau</ville_r>
+        <cp_r>97130</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>21</id_r>
+        <nom_r>O Bou Du Monde</nom_r>
+        <type_r>Cuisine Créole et Viandes Grillées</type_r>
+        <tel_r>06 90 23 20 25</tel_r>
+        <adresse_r>Plage de grande anse</adresse_r>
+        <ville_r>Deshaie</ville_r>
+        <cp_r>97126</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>22</id_r>
+        <nom_r>La Table du Poisson Rouge</nom_r>
+        <type_r>Cuisine metissée</type_r>
+        <tel_r>05 90 28 42 72</tel_r>
+        <adresse_r>Habitation Tendacayou, Matouba</adresse_r>
+        <ville_r>Deshaie</ville_r>
+        <cp_r>97126</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>23</id_r>
+        <nom_r>Restaurant Hemingway</nom_r>
+        <type_r>Cuisine Créole Raffinée</type_r>
+        <tel_r>05 90 28 57 17</tel_r>
+        <adresse_r>Batterie</adresse_r>
+        <ville_r>Deshaie</ville_r>
+        <cp_r>97126</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>quatre</note>
+    </restaurants>
+    <restaurants>
+        <id_r>24</id_r>
+        <nom_r>Paillote de la Perle</nom_r>
+        <type_r>Créoles</type_r>
+        <tel_r>05 90 28 45 87</tel_r>
+        <adresse_r>Plage de la Perle Riflet</adresse_r>
+        <ville_r>Deshaie</ville_r>
+        <cp_r>97126</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>25</id_r>
+        <nom_r>La Galette</nom_r>
+        <type_r>Crêperies, Saladeries</type_r>
+        <tel_r>06 90 93 03 24</tel_r>
+        <adresse_r>Plage de lafeuillère</adresse_r>
+        <ville_r>Capesterre-de-Marie-Galante</ville_r>
+        <cp_r>97140</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>26</id_r>
+        <nom_r>Le Touloulou</nom_r>
+        <type_r>Créoles</type_r>
+        <tel_r>05 90 97 32 63</tel_r>
+        <adresse_r>Petit anse</adresse_r>
+        <ville_r>Capesterre-de-Marie-Galante</ville_r>
+        <cp_r>97140</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>27</id_r>
+        <nom_r>La braise marine</nom_r>
+        <tel_r>05 90 97 42 57</tel_r>
+        <adresse_r>Rue marine</adresse_r>
+        <ville_r>Capesterre-de-Marie-Galante</ville_r>
+        <cp_r>97140</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>quatre</note>
+    </restaurants>
+    <restaurants>
+        <id_r>28</id_r>
+        <nom_r>La Payotte</nom_r>
+        <tel_r>05 90 20 01 29</tel_r>
+        <adresse_r>Beauséjour</adresse_r>
+        <ville_r>Desirade</ville_r>
+        <cp_r>97127</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>29</id_r>
+        <nom_r>Mimiette michel</nom_r>
+        <type_r>Hôtel restaurant</type_r>
+        <tel_r>05 90 20 07 45</tel_r>
+        <adresse_r>Desert</adresse_r>
+        <ville_r>Desirade</ville_r>
+        <cp_r>97127</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>30</id_r>
+        <nom_r>Le mirage</nom_r>
+        <type_r>Hôtel restaurant</type_r>
+        <tel_r>05 90 20 01 08</tel_r>
+        <adresse_r>Le desert</adresse_r>
+        <ville_r>Desirade</ville_r>
+        <cp_r>97127</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>31</id_r>
+        <nom_r>Kim Do Yakitori</nom_r>
+        <type_r>Cuisine Japonaise</type_r>
+        <tel_r>05 90 26 39 88</tel_r>
+        <adresse_r>Jarry 135 rue Henri Becquerel</adresse_r>
+        <ville_r>Baie-Mahault</ville_r>
+        <cp_r>97122</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>32</id_r>
+        <nom_r>Les Saveurs Des Iles</nom_r>
+        <type_r>Cuisine Japonaise</type_r>
+        <tel_r>05 90 25 13 74</tel_r>
+        <adresse_r>17 r Industrie 97122 BAIE MAHAULT</adresse_r>
+        <ville_r>Baie-Mahault</ville_r>
+        <cp_r>97122</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>33</id_r>
+        <nom_r>Yoshi</nom_r>
+        <type_r>Cuisine Japonaise</type_r>
+        <tel_r>05 90 94 62 04</tel_r>
+        <adresse_r>Parking – Terrasse Zac Mondong Sud</adresse_r>
+        <ville_r>Baie-Mahault</ville_r>
+        <cp_r>97122</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>34</id_r>
+        <nom_r>O-Maki Sushis</nom_r>
+        <type_r>Cuisine Japonaise</type_r>
+        <tel_r>06 90 72 28 49</tel_r>
+        <adresse_r>Durivage</adresse_r>
+        <ville_r>Sainte-Anne</ville_r>
+        <cp_r>97180</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>35</id_r>
+        <nom_r>Speed Sushi</nom_r>
+        <type_r>Cuisine Japonaise</type_r>
+        <tel_r>05 90 85 10 54</tel_r>
+        <adresse_r>Escale Bas du Fort 97190 LE GOSIER</adresse_r>
+        <ville_r>Goosier</ville_r>
+        <cp_r>97190</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>36</id_r>
+        <nom_r>Sushi Ban</nom_r>
+        <type_r>Cuisine Japonaise</type_r>
+        <tel_r>05 90 83 18 67</tel_r>
+        <adresse_r>42 boulevard Légitimus</adresse_r>
+        <ville_r>Pointe-à-Pitre</ville_r>
+        <cp_r>97110</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>37</id_r>
+        <nom_r>An Kann La</nom_r>
+        <tel_r>05 90 20 27 28</tel_r>
+        <adresse_r>gare Roza</adresse_r>
+        <ville_r>Abyme</ville_r>
+        <cp_r>97139</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>38</id_r>
+        <nom_r>Ti Perou</nom_r>
+        <tel_r>05 90 24 20 98</tel_r>
+        <adresse_r>Petit Pérou</adresse_r>
+        <ville_r>Abyme</ville_r>
+        <cp_r>97139</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>39</id_r>
+        <nom_r>Restaurant Chez Den</nom_r>
+        <type_r></type_r>
+        <tel_r>05 90 92 14 43</tel_r>
+        <adresse_r>Dole les Bains</adresse_r>
+        <ville_r>Gourbeyre</ville_r>
+        <cp_r>97113</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>40</id_r>
+        <nom_r>Relais Des Pêcheurs</nom_r>
+        <tel_r>05 90 98 56 57</tel_r>
+        <adresse_r>lot Bord de Mer</adresse_r>
+        <ville_r>Vieux-Habitants</ville_r>
+        <cp_r>97119</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>41</id_r>
+        <nom_r>Restaurant Chez Loulouze</nom_r>
+        <tel_r>05 90 98 70 34</tel_r>
+        <adresse_r>Plage Malendure</adresse_r>
+        <ville_r>Bouillante</ville_r>
+        <cp_r>97125</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>42</id_r>
+        <nom_r>Restaurant Chez Sosso</nom_r>
+        <tel_r>05 90 23 25 81</tel_r>
+        <adresse_r>21 Saint Jean</adresse_r>
+        <ville_r>Moule</ville_r>
+        <cp_r>97160</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>43</id_r>
+        <nom_r></nom_r>
+        <adresse_r></adresse_r>
+        <ville_r></ville_r>
+        <cp_r>0</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>44</id_r>
+        <nom_r>Restaurant Clara</nom_r>
+        <tel_r>05 90 28 72 99</tel_r>
+        <adresse_r>Boulevard St Charles</adresse_r>
+        <ville_r>Sainte-Rose</ville_r>
+        <cp_r>97115</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>45</id_r>
+        <nom_r>Restaurant Délices Caraïbes</nom_r>
+        <tel_r>05 90 98 12 34</tel_r>
+        <adresse_r>Place Caraïbe</adresse_r>
+        <ville_r>Pointe-Noire</ville_r>
+        <cp_r>97116</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>46</id_r>
+        <nom_r>Restaurant La Saladerie</nom_r>
+        <tel_r>05 90 99 53 43</tel_r>
+        <adresse_r>Anse Mirre</adresse_r>
+        <ville_r>Terre-de-Haut</ville_r>
+        <cp_r>97137</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>47</id_r>
+        <nom_r>Le Beauvallon</nom_r>
+        <tel_r>05 90 94 83 82</tel_r>
+        <adresse_r>Mont Bazin</adresse_r>
+        <ville_r>Basse-Terre</ville_r>
+        <cp_r>97100</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>48</id_r>
+        <nom_r>Toto Marie-Christine</nom_r>
+        <tel_r>05 90 97 17 08</tel_r>
+        <adresse_r>lieu-dit Pichéry</adresse_r>
+        <ville_r>Capesterre-de-Marie-Galante</ville_r>
+        <cp_r>97140</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>49</id_r>
+        <nom_r>Le Coin Fruitier</nom_r>
+        <tel_r>05 90 24 72 63</tel_r>
+        <adresse_r>Lasserre</adresse_r>
+        <ville_r>Morne-à-l'eau</ville_r>
+        <cp_r>97111</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+    <restaurants>
+        <id_r>50</id_r>
+        <nom_r>Ornata</nom_r>
+        <tel_r>05 90 97 54 16</tel_r>
+        <adresse_r>1 place Félix Eboué</adresse_r>
+        <ville_r>Grand-Bourg</ville_r>
+        <cp_r>97112</cp_r>
+        <image_r>nophoto.gif</image_r>
+        <note>un</note>
+    </restaurants>
+  <!-- Table situer -->
+    <situer>
+        <id_s>1</id_s>
+        <s_restau>1</s_restau>
+        <s_ville>2</s_ville>
+    </situer>
+    <situer>
+        <id_s>2</id_s>
+        <s_restau>2</s_restau>
+        <s_ville>2</s_ville>
+    </situer>
+    <situer>
+        <id_s>3</id_s>
+        <s_restau>3</s_restau>
+        <s_ville>2</s_ville>
+    </situer>
+    <situer>
+        <id_s>4</id_s>
+        <s_restau>4</s_restau>
+        <s_ville>4</s_ville>
+    </situer>
+    <situer>
+        <id_s>5</id_s>
+        <s_restau>5</s_restau>
+        <s_ville>4</s_ville>
+    </situer>
+    <situer>
+        <id_s>6</id_s>
+        <s_restau>9</s_restau>
+        <s_ville>4</s_ville>
+    </situer>
+    <situer>
+        <id_s>7</id_s>
+        <s_restau>6</s_restau>
+        <s_ville>5</s_ville>
+    </situer>
+    <situer>
+        <id_s>8</id_s>
+        <s_restau>7</s_restau>
+        <s_ville>5</s_ville>
+    </situer>
+    <situer>
+        <id_s>9</id_s>
+        <s_restau>8</s_restau>
+        <s_ville>5</s_ville>
+    </situer>
+    <situer>
+        <id_s>10</id_s>
+        <s_restau>10</s_restau>
+        <s_ville>3</s_ville>
+    </situer>
+    <situer>
+        <id_s>11</id_s>
+        <s_restau>11</s_restau>
+        <s_ville>3</s_ville>
+    </situer>
+    <situer>
+        <id_s>12</id_s>
+        <s_restau>12</s_restau>
+        <s_ville>3</s_ville>
+    </situer>
+    <situer>
+        <id_s>13</id_s>
+        <s_restau>13</s_restau>
+        <s_ville>3</s_ville>
+    </situer>
+    <situer>
+        <id_s>14</id_s>
+        <s_restau>14</s_restau>
+        <s_ville>6</s_ville>
+    </situer>
+    <situer>
+        <id_s>15</id_s>
+        <s_restau>15</s_restau>
+        <s_ville>6</s_ville>
+    </situer>
+    <situer>
+        <id_s>16</id_s>
+        <s_restau>16</s_restau>
+        <s_ville>6</s_ville>
+    </situer>
+    <situer>
+        <id_s>17</id_s>
+        <s_restau>17</s_restau>
+        <s_ville>6</s_ville>
+    </situer>
+    <situer>
+        <id_s>18</id_s>
+        <s_restau>18</s_restau>
+        <s_ville>7</s_ville>
+    </situer>
+    <situer>
+        <id_s>19</id_s>
+        <s_restau>19</s_restau>
+        <s_ville>7</s_ville>
+    </situer>
+    <situer>
+        <id_s>20</id_s>
+        <s_restau>20</s_restau>
+        <s_ville>7</s_ville>
+    </situer>
+  <!-- Table trouver -->
+    <trouver>
+        <id_t>1</id_t>
+        <t_plat>1</t_plat>
+        <t_ville>1</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>2</id_t>
+        <t_plat>1</t_plat>
+        <t_ville>2</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>3</id_t>
+        <t_plat>1</t_plat>
+        <t_ville>3</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>4</id_t>
+        <t_plat>1</t_plat>
+        <t_ville>4</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>5</id_t>
+        <t_plat>1</t_plat>
+        <t_ville>5</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>6</id_t>
+        <t_plat>1</t_plat>
+        <t_ville>6</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>7</id_t>
+        <t_plat>1</t_plat>
+        <t_ville>7</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>8</id_t>
+        <t_plat>2</t_plat>
+        <t_ville>1</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>9</id_t>
+        <t_plat>2</t_plat>
+        <t_ville>2</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>10</id_t>
+        <t_plat>2</t_plat>
+        <t_ville>3</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>11</id_t>
+        <t_plat>2</t_plat>
+        <t_ville>4</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>12</id_t>
+        <t_plat>2</t_plat>
+        <t_ville>5</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>13</id_t>
+        <t_plat>3</t_plat>
+        <t_ville>3</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>14</id_t>
+        <t_plat>3</t_plat>
+        <t_ville>1</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>15</id_t>
+        <t_plat>3</t_plat>
+        <t_ville>2</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>16</id_t>
+        <t_plat>3</t_plat>
+        <t_ville>5</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>17</id_t>
+        <t_plat>3</t_plat>
+        <t_ville>23</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>18</id_t>
+        <t_plat>4</t_plat>
+        <t_ville>4</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>19</id_t>
+        <t_plat>4</t_plat>
+        <t_ville>18</t_ville>
+    </trouver>
+    <trouver>
+        <id_t>20</id_t>
+        <t_plat>4</t_plat>
+        <t_ville>25</t_ville>
+    </trouver>
+  <!-- Table ville -->
+    <ville>
+        <id_v>1</id_v>
+        <nom_v>Abyme</nom_v>
+        <cp_v>97139</cp_v>
+    </ville>
+    <ville>
+        <id_v>2</id_v>
+        <nom_v>Anse-Bertrand</nom_v>
+        <cp_v>97121</cp_v>
+    </ville>
+    <ville>
+        <id_v>3</id_v>
+        <nom_v>Baie-Mahault</nom_v>
+        <cp_v>97122</cp_v>
+    </ville>
+    <ville>
+        <id_v>4</id_v>
+        <nom_v>Baillif</nom_v>
+        <cp_v>97123</cp_v>
+    </ville>
+    <ville>
+        <id_v>5</id_v>
+        <nom_v>Basse-Terre</nom_v>
+        <cp_v>97100</cp_v>
+    </ville>
+    <ville>
+        <id_v>6</id_v>
+        <nom_v>Bouillante</nom_v>
+        <cp_v>97125</cp_v>
+    </ville>
+    <ville>
+        <id_v>7</id_v>
+        <nom_v>Capesterre-Belle-Eau</nom_v>
+        <cp_v>97130</cp_v>
+    </ville>
+    <ville>
+        <id_v>8</id_v>
+        <nom_v>Capesterre-de-Marie-Galante</nom_v>
+        <cp_v>97140</cp_v>
+    </ville>
+    <ville>
+        <id_v>9</id_v>
+        <nom_v>Deshaie</nom_v>
+        <cp_v>97126</cp_v>
+    </ville>
+    <ville>
+        <id_v>10</id_v>
+        <nom_v>Desirade</nom_v>
+        <cp_v>97127</cp_v>
+    </ville>
+    <ville>
+        <id_v>11</id_v>
+        <nom_v>Gosier</nom_v>
+        <cp_v>97190</cp_v>
+    </ville>
+    <ville>
+        <id_v>12</id_v>
+        <nom_v>Gourbeyre</nom_v>
+        <cp_v>97113</cp_v>
+    </ville>
+    <ville>
+        <id_v>13</id_v>
+        <nom_v>Goyave</nom_v>
+        <cp_v>97128</cp_v>
+    </ville>
+    <ville>
+        <id_v>14</id_v>
+        <nom_v>Grand-Bourg</nom_v>
+        <cp_v>97112</cp_v>
+    </ville>
+    <ville>
+        <id_v>15</id_v>
+        <nom_v>Lamentin</nom_v>
+        <cp_v>97129</cp_v>
+    </ville>
+    <ville>
+        <id_v>16</id_v>
+        <nom_v>Morne-à-l'eau</nom_v>
+        <cp_v>97111</cp_v>
+    </ville>
+    <ville>
+        <id_v>17</id_v>
+        <nom_v>Moule</nom_v>
+        <cp_v>97160</cp_v>
+    </ville>
+    <ville>
+        <id_v>18</id_v>
+        <nom_v>Petit-Bourg</nom_v>
+        <cp_v>97170</cp_v>
+    </ville>
+    <ville>
+        <id_v>19</id_v>
+        <nom_v>Petit-Canal</nom_v>
+        <cp_v>97131</cp_v>
+    </ville>
+    <ville>
+        <id_v>20</id_v>
+        <nom_v>Pointe-à-Pitre</nom_v>
+        <cp_v>97110</cp_v>
+    </ville>
+    <ville>
+        <id_v>21</id_v>
+        <nom_v>Pointe-Noire</nom_v>
+        <cp_v>97116</cp_v>
+    </ville>
+    <ville>
+        <id_v>22</id_v>
+        <nom_v>Port-Louis</nom_v>
+        <cp_v>97117</cp_v>
+    </ville>
+    <ville>
+        <id_v>23</id_v>
+        <nom_v>Saint-Claude</nom_v>
+        <cp_v>97120</cp_v>
+    </ville>
+    <ville>
+        <id_v>24</id_v>
+        <nom_v>Saint-François</nom_v>
+        <cp_v>97118</cp_v>
+    </ville>
+    <ville>
+        <id_v>25</id_v>
+        <nom_v>Saint-Louis</nom_v>
+        <cp_v>97134</cp_v>
+    </ville>
+    <ville>
+        <id_v>26</id_v>
+        <nom_v>Sainte-Anne</nom_v>
+        <cp_v>97180</cp_v>
+    </ville>
+    <ville>
+        <id_v>27</id_v>
+        <nom_v>Sainte-Rose</nom_v>
+        <cp_v>97115</cp_v>
+    </ville>
+    <ville>
+        <id_v>28</id_v>
+        <nom_v>Terre-de-Bas</nom_v>
+        <cp_v>97136</cp_v>
+    </ville>
+    <ville>
+        <id_v>29</id_v>
+        <nom_v>Terre-de-Haut</nom_v>
+        <cp_v>97137</cp_v>
+    </ville>
+    <ville>
+        <id_v>30</id_v>
+        <nom_v>Trois-Rivières</nom_v>
+        <cp_v>97114</cp_v>
+    </ville>
+    <ville>
+        <id_v>31</id_v>
+        <nom_v>Vieux-Fort</nom_v>
+        <cp_v>97141</cp_v>
+    </ville>
+    <ville>
+        <id_v>32</id_v>
+        <nom_v>Vieux-Habitants</nom_v>
+        <cp_v>97119</cp_v>
+    </ville>
+    <ville>
+        <id_v>33</id_v>
+        <nom_v>Bignoux</nom_v>
+        <cp_v>86000</cp_v>
+    </ville>
+</a4596834_restau>
